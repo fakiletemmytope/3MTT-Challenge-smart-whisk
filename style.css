@@ -1,0 +1,136 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(39, 60, 29);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.01px;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header, main, footer{
+  grid-column: span 3;
+}
+
+
+/* styling the header section */
+header{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+header > nav, header > section{
+  grid-row: span 1;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 15px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.logo{
+  grid-column: 1/ span 1;
+}
+
+.nav{
+  grid-column: 2/ span 3;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 12px;
+}
+
+.logo > div {
+    font-family: 'Poppins', sans-serif; /* Use a modern and stylish font like Poppins */
+    color: #2ecc71; /* Green color */
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+  
+  .logo > div:hover {
+    transform: scale(1.1); /* Scale the text on hover for a subtle effect */
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+
+/* style the main section */
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content{
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 0 30px;
+  border: 2px solid #2ecc71;
+  background-color: #f5f3f3;
+}
+
+
+/* card design */
+.card {
+  width: 150x;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  height: 180px;
+  text-align: center;
+}
+
+/* .card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+} */
+
+.card p {
+  color: #666;
+  font-size: 16px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #34db58;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background-color: #19bf3f;
+}
+
+
