@@ -1,5 +1,4 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -31,11 +30,28 @@ header, main, footer{
   grid-column: span 3;
 }
 
+.banner{
+  background-image: url("./image/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+  height: 300px;
+  background-size:cover;
+  display: grid;
+  place-items: center;
+  font-family: "lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 22px;
+  color: white;
+}
+
+/* .banner > p{
+  
+} */
+
 
 /* styling the header section */
 header{
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 }
 
 header > nav, header > section{
@@ -47,14 +63,20 @@ nav{
   grid-template-columns: 2fr 3fr;
   padding: 15px;
   background: rgba(255, 255, 255, 1);
+  height: auto;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2px;
 }
 
 .logo{
   grid-column: 1/ span 1;
+  height: 40px;
+  
 }
 
 .nav{
   grid-column: 2/ span 3;
+  height: 40px;
 }
 
 .nav > ul {
@@ -91,7 +113,7 @@ main{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   padding: 0 30px;
-  border: 2px solid #2ecc71;
+  /* border: 2px solid #2ecc71; */
   background-color: #f5f3f3;
 }
 
@@ -106,6 +128,8 @@ main{
   margin: 20px;
   height: 180px;
   text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 /* .card h2 {
@@ -115,8 +139,12 @@ main{
 } */
 
 .card p {
-  color: #666;
-  font-size: 16px;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgba(29, 44, 60, 1);
 }
 
 .card a {
@@ -131,6 +159,18 @@ main{
 
 .card a:hover {
   background-color: #19bf3f;
+}
+
+
+footer{
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgba(29, 44, 60, 1);
+  height: 50px;
+  padding: 20px;
 }
 
 

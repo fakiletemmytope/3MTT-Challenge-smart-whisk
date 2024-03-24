@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    height: 100vh;
+}
+
+aside{
+   grid-column:1/ span 1 ;
+   background: rgb(17, 191, 46);
+   padding: 30px 80px;
+}
+
+main{
+    grid-column: 2/ span 1;
+}
+
+.img > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 250px;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.menu > ul > li{
+    margin-top: 15px;
+    color: white;
+    list-style: none;
+
+}
