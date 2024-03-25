@@ -87,7 +87,8 @@ nav{
 
 .logo > div {
     font-family: 'Poppins', sans-serif; /* Use a modern and stylish font like Poppins */
-    color: #2ecc71; /* Green color */
+     /* Green color */
+    color: rgb(5, 96, 20);
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -110,9 +111,9 @@ main{
 .content{
   grid-column: span 2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
-  padding: 0 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 5px; */
+  padding: 0 20px;
   /* border: 2px solid #2ecc71; */
   background-color: #f5f3f3;
 }
@@ -120,7 +121,7 @@ main{
 
 /* card design */
 .card {
-  width: 150x;
+  width: 200px;
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -151,14 +152,14 @@ main{
   display: inline-block;
   padding: 8px 16px;
   margin-top: 10px;
-  background-color: #34db58;
+  background: rgb(5, 96, 20);
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .card a:hover {
-  background-color: #19bf3f;
+  background: rgb(5, 96, 20);
 }
 
 
